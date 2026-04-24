@@ -1,0 +1,182 @@
+{
+	"info": {
+		"_postman_id": "106ec04d-0cb4-4090-aab8-e5ffc51ebb34",
+		"name": "FINCANTIERI - FORZA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12634189"
+	},
+	"item": [
+		{
+			"name": "http://192.168.77.57:8080/api/Pcp/GetTags?tagsName=1_ABIL;1_DIESEL_CNT",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.77.57:8080/api/Pcp/GetTags?tagsName=1_ABIL;1_DIESEL_CNT",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"77",
+						"57"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Pcp",
+						"GetTags"
+					],
+					"query": [
+						{
+							"key": "tagsName",
+							"value": "1_ABIL;1_DIESEL_CNT"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://192.168.77.57:8080/api/Pcp/GetTags?tagsName=1_ABIL;1_DIESEL_CNT",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.77.57:8080/api/Pcp/GetTags?tagsName=1_ABIL;1_DIESEL_CNT",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"77",
+								"57"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"Pcp",
+								"GetTags"
+							],
+							"query": [
+								{
+									"key": "tagsName",
+									"value": "1_ABIL;1_DIESEL_CNT"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "177"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-HTTPAPI/2.0"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 05 Sep 2025 14:11:02 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "\"[{\\\"Tag\\\":\\\"1_ABIL\\\",\\\"Value\\\":\\\"APERTO\\\",\\\"Quality\\\":36864,\\\"QualityString\\\":\\\"OL\\\"},{\\\"Tag\\\":\\\"1_DIESEL_CNT\\\",\\\"Value\\\":\\\"0.00\\\",\\\"Quality\\\":36864,\\\"QualityString\\\":\\\"OL\\\"}]\""
+				}
+			]
+		},
+		{
+			"name": "http://192.168.77.57:8080/api/Pcp/GetTag?tagName=1_ABIL",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.77.57:8080/api/Pcp/GetTag?tagName=1_ABIL",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"77",
+						"57"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Pcp",
+						"GetTag"
+					],
+					"query": [
+						{
+							"key": "tagName",
+							"value": "1_ABIL"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://192.168.77.57:8080/api/Pcp/GetTag?tagName=1_ABIL",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.77.57:8080/api/Pcp/GetTag?tagName=1_ABIL",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"77",
+								"57"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"Pcp",
+								"GetTag"
+							],
+							"query": [
+								{
+									"key": "tagName",
+									"value": "1_ABIL"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "86"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-HTTPAPI/2.0"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 05 Sep 2025 14:11:10 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "\"{\\\"Tag\\\":\\\"1_ABIL\\\",\\\"Value\\\":\\\"APERTO\\\",\\\"Quality\\\":36864,\\\"QualityString\\\":\\\"OL\\\"}\""
+				}
+			]
+		}
+	]
+}

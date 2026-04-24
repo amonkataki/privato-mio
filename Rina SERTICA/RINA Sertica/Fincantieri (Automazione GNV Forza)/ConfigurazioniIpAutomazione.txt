@@ -1,0 +1,13 @@
+Buongiorno,
+
+per quanto in oggetto, lato network è stata predisposta la VLAN 18
+
+e per i due server riservati i seguenti ip:
+
+server1: 172.26.0.177
+
+server2: 172.26.0.178
+
+il gateway di questa rete è 172.26.0.190
+
+la sottomaschera di rete è 255.255.255.240
