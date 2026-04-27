@@ -1,0 +1,10 @@
+PC Primario sul ponte di comando
+GNV Altair
+Hostname: ALTD102058
+Username: rt
+Ethernet: 172.16.128.228
+ 
+PC secondario di backup in segreteria
+Hostname: ALTD102061
+Username: rt
+Ethernet: 172.16.128.231
