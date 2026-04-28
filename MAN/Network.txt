@@ -1,0 +1,10 @@
+il sistema e' connesso allo switch
+ 
+
+VIR-DIS16-DK2-MVZ5(config-if)# 
+
+ interface 3/1/21
+
+mac address a8:74:1d:f2:2a:77   
+
+VLAN 1
